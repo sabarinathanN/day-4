@@ -10,11 +10,6 @@ request.onload=function(){
     
 for(var i=0;i<data.length;i++)
 {
-console.log(`Name:${data[i].name}
-Region:${data[i].region}
-sub region:${data[i].subregion} 
-population:${data[i].population}`);
+console.log(`flag:${data[i].flag}`);
 }
 }
-
-
